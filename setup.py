@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="language-processing-tool",
-    version="0.2.0",  # Updated version
+    version="0.2.1",  # Updated version
     packages=find_packages(),
     install_requires=[
         "pytesseract",  # Example dependencies
