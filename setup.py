@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'my-package = my_package.sourcecode:main',  # Define your CLI entry point
+            'process-pdfs = language_processing_tool.process_pdfs:main',  # Define your CLI entry point
         ],
     },
     description="A PDF language detection and OCR tool",
